@@ -44,7 +44,7 @@ function retoggle() {
     sun.style.visibility = 'visible';
     sun.style.transition = '1.5s';
     horseRoach.style.visibility = 'visible';
-    horseRoach.style.transition = '1.5s';
+    horseRoach.style.transition = '0.5s';
     partisanEwok.style.visibility = 'visible';
     partisanEwok.style.transition = '1s';
     raven1.style.visibility = 'hidden';
