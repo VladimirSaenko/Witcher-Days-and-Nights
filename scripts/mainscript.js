@@ -13,6 +13,7 @@ let monster = document.getElementById('leshyi');
 let raven1 = document.getElementById('raven-1');
 let raven2 = document.getElementById('raven-2');
 let raven3 = document.getElementById('raven-3');
+
 document.getElementById('forestDay').play();
 
 
@@ -39,14 +40,13 @@ function toggle() {
     scene.style.backgroundSize = 'cover';
     document.getElementById('forestDay').pause();
     document.getElementById('forestNight').play();
-
 }
 
 function retoggle() {
     sun.style.visibility = 'visible';
     sun.style.transition = '1.5s';
     horseRoach.style.visibility = 'visible';
-    horseRoach.style.transition = '0.5s';
+    horseRoach.style.transition = '1s';
     partisanEwok.style.visibility = 'visible';
     partisanEwok.style.transition = '1s';
     raven1.style.visibility = 'hidden';
@@ -80,7 +80,6 @@ function changeItemRight() {
     sun.style.left = '175px';
     horseRoach.style.left = '100vh';
     partisanEwok.style.bottom = '-250px';
-
 }
 
 function changeItemLeftNight() {
@@ -103,7 +102,6 @@ function changeItemRightNight() {
     raven3.style.left = '60%';
 }
 
-
 horseRoach.addEventListener('click',function(){
     document.getElementById('goRoach').play();
 })
@@ -119,5 +117,3 @@ raven2.addEventListener('click',function(){
 raven3.addEventListener('click',function(){
     document.getElementById('ravens').play();
 })
-
-
