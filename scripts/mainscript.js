@@ -34,7 +34,9 @@ function toggle() {
     monster.style.visibility = 'visible';
     witcher.style.transition = '1s';
     witcher.style.visibility = 'visible';
-    scene.style.background = 'linear-gradient(#111425,#131d57)';
+    scene.style.backgroundColor = 'linear-gradient(#111425,#131d57)';
+    scene.style.background = 'url(img/forest-night.png)';
+    scene.style.backgroundSize = 'cover';
     document.getElementById('forestDay').pause();
     document.getElementById('forestNight').play();
 
@@ -86,6 +88,7 @@ function changeItemLeftNight() {
     raven2.style.left = '15%';
     raven3.style.left = '30%';
     monster.style.left = '135vh';
+    monster.style.transition = "1s";
     moon.style.left = '75px';
     witcher.style.left = '0';
 }
@@ -93,6 +96,7 @@ function changeItemLeftNight() {
 function changeItemRightNight() {
     witcher.style.left = '55vh';
     monster.style.left = '115vh';
+    monster.style.transition = "1s";
     moon.style.left = '775px';
     raven1.style.left = '55%';
     raven2.style.left = '45%';
