@@ -3,7 +3,7 @@
 
 const scene = document.getElementById('scene');
 const witcher = document.getElementById('geralt-of-Rivia');
-let rightSide =document.getElementById('right');
+let rightSide = document.getElementById('right');
 let leftSide = document.getElementById('left');
 let sun = document.getElementById('sun');
 let moon = document.getElementById('moon');
@@ -15,7 +15,6 @@ let raven2 = document.getElementById('raven-2');
 let raven3 = document.getElementById('raven-3');
 
 document.getElementById('forestDay').play();
-
 
 function toggle() {
     sun.style.visibility = 'hidden';
